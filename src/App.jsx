@@ -1,12 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import Heading from "./Components/Heading"
+import Timeing from "./Components/Timeing"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      <center>
+        <Heading/>
+        <Timeing/>
+      </center>
     </>
   )
 }
